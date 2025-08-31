@@ -1,0 +1,65 @@
+$date
+	Sun Aug 31 06:02:05 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_adder_8bit $end
+$var wire 8 ! sum [7:0] $end
+$var wire 1 " carry $end
+$var reg 8 # a [7:0] $end
+$var reg 8 $ b [7:0] $end
+$scope module uut $end
+$var wire 8 % a [7:0] $end
+$var wire 8 & b [7:0] $end
+$var wire 8 ' sum [7:0] $end
+$var wire 1 " carry $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 '
+b0 &
+b0 %
+b0 $
+b0 #
+0"
+b0 !
+$end
+#10000
+b11 !
+b11 '
+b10 $
+b10 &
+b1 #
+b1 %
+#20000
+b10001000 !
+b10001000 '
+b110011 $
+b110011 &
+b1010101 #
+b1010101 %
+#30000
+b0 !
+b0 '
+1"
+b1 $
+b1 &
+b11111111 #
+b11111111 %
+#40000
+b1010100 !
+b1010100 '
+b10101010 $
+b10101010 &
+b10101010 #
+b10101010 %
+#50000
