@@ -14,8 +14,8 @@ This project implements an **8-bit binary adder** using **Verilog HDL** on **EDA
 ---
 
 ## Files
-- `adder_8bit.v` – 8-bit adder module
-- `tb_adder_8bit.v` – Testbench for simulation
+- `design.sv` – 8-bit adder module
+- `testbench.sv` – Testbench for simulation
 
 ---
 
